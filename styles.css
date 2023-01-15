@@ -1,0 +1,51 @@
+*, *::after, *::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+img {
+    height: 400px;
+    width: 100%;
+}
+
+body {
+    background-color: rgba(211, 211, 211, 0.927);
+    margin: 0;
+}
+
+header {
+    background-color: white;
+    padding: 10px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.post {
+    background-color: white;
+    margin-top: 40px;
+    width: 500px;
+}
+.container {
+    width: 600px;
+    margin: auto;
+}
+
+div.post h2, div.post p {
+    padding: 10px;
+}
+
+.flex-container {
+    display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: auto;
+	justify-content: space-between;
+    align-items: baseline;
+}
+
+span {
+    margin-right: 10px;
+}
